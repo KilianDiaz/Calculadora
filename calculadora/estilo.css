@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #1e1e1e;
+    /* Fondo oscuro */
+}
+
+.calculator {
+    background: #2f2f2f;
+    /* Color gris oscuro */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 300px;
+}
+
+.calculator h1 {
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+#result {
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+    text-align: right;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #333;
+    /* Fondo oscuro del input */
+    color: #fff;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+button {
+    height: 50px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button:active {
+    opacity: 0.6;
+}
+
+/* Botones con colores especiales */
+button.red {
+    background-color: #ff4d4d;
+    /* Rojo */
+    color: white;
+}
+
+button.red:hover {
+    background-color: #ff1a1a;
+    /* Rojo más oscuro al pasar el ratón */
+}
+
+button.green {
+    background-color: #4CAF50;
+    /* Verde */
+    color: white;
+}
+
+button.green:hover {
+    background-color: #45a049;
+    /* Verde más oscuro al pasar el ratón */
+}
+
+/* Botones numéricos con fondo oscuro */
+button:not(.red):not(.green) {
+    background-color: #555;
+    /* Gris oscuro para botones numéricos */
+    color: white;
+}
+
+button:not(.red):not(.green):hover {
+    background-color: #666;
+    /* Gris más claro al pasar el ratón */
+}
