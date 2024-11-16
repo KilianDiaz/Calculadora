@@ -11,3 +11,10 @@ Calculadora web básica creada con **HTML**, **CSS** y **JavaScript**. Esta  per
 - **Paréntesis (`(` y `)`)**: Agrupa operaciones y establece el orden de precedencia.
 - **Botón de Igualdad (`=`)**: Calcula el resultado de la operación ingresada.
 - **Borrar (`C`)**: Limpia el campo de entrada y el resultado.
+
+## Diseño de la Calculadora
+
+<p align="center">
+   <img src=https://github.com/user-attachments/assets/b0e3a30e-91da-4ad6-934b-33e6ff69890c>
+
+</p>
